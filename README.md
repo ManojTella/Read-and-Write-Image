@@ -24,9 +24,8 @@ Use imwrite(filename, image) to write the image.
 End the program and close the output image windows.
 
 ## Program:
-
-#### Developed By:Manoj Guna Sundar Tella.
-#### Register Number:212221240026.
+##### Developed By:Manoj Guna Sundar Tella.
+##### Register Number:212221240026.
 
 #### To Read,display the image
 ```

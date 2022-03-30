@@ -25,10 +25,10 @@ End the program and close the output image windows.
 
 ## Program:
 
-# Developed By:Manoj Guna Sundar Tella.
-# Register Number:212221240026.
+#### Developed By:Manoj Guna Sundar Tella.
+#### Register Number:212221240026.
 
-# To Read,display the image
+#### To Read,display the image
 ```
 import cv2
 colorImage = cv2.imread("flower.jpg",1)
@@ -40,7 +40,7 @@ cv2.waitKey(0)
 
 
 
-# To write the image
+#### To write the image
 ```
 import cv2
 colorImage = cv2.imread('flower.jpg',1)
@@ -53,7 +53,7 @@ cv2.waitKey(0)
 
 
 
-# Find the shape of the Image
+#### Find the shape of the Image
 ```
 import cv2
 colorImage = cv2.imread('flower.jpg',1)
@@ -62,7 +62,7 @@ print(colorImage.shape)
 
 
 
-# To access rows and columns
+#### To access rows and columns
 ```
 import cv2
 import random
@@ -79,7 +79,7 @@ cv2.waitKey(0)
 
 
 
-# To cut and paste portion of image
+#### To cut and paste portion of image
 ```
 import cv2
 color_img = cv2.imread('flower.jpg',1)

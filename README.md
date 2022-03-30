@@ -24,41 +24,46 @@ Use imwrite(filename, image) to write the image.
 End the program and close the output image windows.
 
 ## Program:
-```python
+
 # Developed By:Manoj Guna Sundar Tella.
 # Register Number:212221240026.
 
 # To Read,display the image
+```
 import cv2
 colorImage = cv2.imread("flower.jpg",1)
 cv2.imshow('212221240026-Read&Display',colorImage)
 cv2.waitKey(0)
+```
 
 
 
 
 
 # To write the image
+```
 import cv2
 colorImage = cv2.imread('flower.jpg',1)
 cv2.imwrite('flower.jpg',colorImage)
 writtenImage = cv2.imread('flower.jpg',1)
 cv2.imshow('212221240026-WrittenImage',writtenImage)
 cv2.waitKey(0)
-
+```
 
 
 
 
 # Find the shape of the Image
+```
 import cv2
 colorImage = cv2.imread('flower.jpg',1)
 print(colorImage.shape)
-
+```
 
 
 
 # To access rows and columns
+```
 import cv2
 import random
 colorImage = cv2.imread('flower.jpg',1)
@@ -67,6 +72,7 @@ for i in range(100):
         colorImage[i][j]=[random.randint(0,255),random.randint(0,160),random.randint(0,255)]
 cv2.imshow('212221240026-AccessingRowsAndColumns',colorImage)
 cv2.waitKey(0)
+```
 
 
 
@@ -74,23 +80,15 @@ cv2.waitKey(0)
 
 
 # To cut and paste portion of image
+```
 import cv2
 color_img = cv2.imread('flower.jpg',1)
 tag = color_img[20:80,20:80]
 color_img[90:150,90:150] = tag
 cv2.imshow('212221240026-CutAndPaste',color_img)
 cv2.waitKey(0)
-
-
-
-
-
-
-
-
-
-
 ```
+
 ## Output:
 
 ### i) Read and display the image

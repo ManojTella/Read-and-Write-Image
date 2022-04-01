@@ -24,6 +24,7 @@ Use imwrite(filename, image) to write the image.
 End the program and close the output image windows.
 
 ## Program:
+```
 ##### Developed By:Manoj Guna Sundar Tella.
 ##### Register Number:212221240026.
 
@@ -79,7 +80,6 @@ cv2.waitKey(0)
 
 
 #### To cut and paste portion of image
-```
 import cv2
 color_img = cv2.imread('flower.jpg',1)
 tag = color_img[20:80,20:80]

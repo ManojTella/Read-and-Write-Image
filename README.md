@@ -51,7 +51,7 @@ cv2.waitKey(0)
 #### Find the shape of the Image
 import cv2
 colorImage = cv2.imread('flower.jpg',1)
-print(colorImage.shape
+print(colorImage.shape)
 
 
 
